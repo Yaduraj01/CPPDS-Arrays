@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /*input of a user defined array*/
-/*main()
+main()
 {
     int r,c;
     cout << "enter rows: ";
@@ -9,24 +9,24 @@ using namespace std;
     cout<< "enter columns: ";
     cin >> c;
     int a[r][c];
-    for(r=0;r<2;r++)
+    for(int i = 0; i<r; i++)
     {
-        for(c=0;c<3;c++)
+        for(int j = 0; j<c; j++)
         {
-            cout << "Enter" << "a[" << r << "][" << c << "]: " ;
-            cin >> a[r][c];
+            cout << "Enter a[" << i << "]" << "[" << j << "]: ";
+            cin >> a[i][j];
         }
     }
-    cout << "\n";
-    for(r=0;r<2;r++)
+    for(int i = 0; i<r; i++)
     {
-        for(c=0;c<3;c++)
+        for(int j = 0; j<c; j++)
         {
-            cout << " " << a[r][c]; 
+            cout << a[i][j] << " ";
         }
         cout << "\n";
     }
-}*/
+    
+}
 
 /*Addition of matrix*/
 /*main()
@@ -46,7 +46,7 @@ using namespace std;
         }
     }
 
-    cout<< "Enter matrix 2";
+    cout<< "\nEnter matrix 2";
     cout << "\n";
     for(i=0;i<2;i++)
     {
@@ -62,14 +62,14 @@ using namespace std;
     {
         for(j=0;j<2;j++)
         {
-            cout << a[i][j] + b[i][j];
+            cout << a[i][j] + b[i][j] << " ";
         }
-        cout << "\n";
+        cout << "\n";1
     }
 }*/
 
 /*find diagnol sum*/
-main()
+/*main()
 {
     int i,j,sum;
     int a[3][3];
@@ -101,4 +101,4 @@ main()
         }
     }
     cout << "diagnal sum is: " << sum;
-}
+}*/
