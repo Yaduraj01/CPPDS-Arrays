@@ -5,13 +5,13 @@ The code files contains following codes in domain of arrays coded in C++ :
 2) Addition of Multi dimensional array/matrix.
 3) Finding sum of diagnol of a matrix.
 
-##Algorithm - code 1
+## Algorithm - code 1
 1. Input the number of rows and columns (`r` and `c`).
 2. Declare a 2D array `a` with `r` rows and `c` columns.
 3. Input values into the array using nested loops.
 4. Display the array's values in a tabular format using nested loops.
 
-##Algorithm - code 2
+## Algorithm - code 2
 1. Declare two 2x2 integer arrays, a and b, to store the input matrices.
 2. Declare two integer variables, i and j, for looping.
 3. Display a message to prompt the user to enter values for the first matrix a.
@@ -24,7 +24,7 @@ The code files contains following codes in domain of arrays coded in C++ :
 9.Use nested loops to iterate over the rows and columns of a and b: a. Calculate the sum of a[i][j]andb[i][j]`.
 b. Display the sum in the same row and column.
 
-##Algorithm - Code 3
+## Algorithm - Code 3
 Here's the algorithm for your code, which calculates the sum of the diagonal elements of a 3x3 matrix:
 
 1. Declare two integer variables, `i` and `j`, for looping, and an integer variable `sum` to store the diagonal sum.
